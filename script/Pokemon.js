@@ -5,7 +5,7 @@ character;
 type;
 abilities;
 experience;
-
+results = []
 
 
 }

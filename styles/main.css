@@ -1,0 +1,97 @@
+.menu {
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  width: auto;
+}
+
+input {
+  border-radius: 3px;
+  border: transparent;
+  padding: 0.3rem;
+  width: auto;
+}
+
+button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: transparent;
+  border: transparent;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.container {
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    
+  padding: 0;
+  margin-bottom: 0;
+  border-radius: 0.4rem;
+  margin: .4rem;
+  width: 35vh;
+  height:50%;
+  box-sizing: border-box;
+  
+}
+
+li {
+
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(1, 3fr);
+  padding: 30px;
+  margin-top: 0 auto;
+  gap: 0.3rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-align: left;
+}
+
+.id {
+  box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 3px;
+  width: 30px;
+  height: 15px;
+  border-radius: 0.2rem;
+  grid-area: id id;
+
+}
+
+img {
+  margin-top: 0.5rem;
+  width: 80px;
+  margin-bottom: 0;
+}
+
+.name {
+  grid-area: name name;
+  margin: 0;
+  
+}
+
+.type {
+  margin: 0;
+  grid-area: type type;
+}
+
+.experience {
+  grid-area: experience experience;
+  margin: 0;
+}
+
+.abilities {
+  grid-area: abilities abilities;
+  margin: 0;
+}
