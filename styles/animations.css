@@ -1,1 +1,28 @@
 
+.imagem-1 {
+	background-image: antiquewhite;
+	padding: 2rem;
+	width: 250px;
+	height: 250px;
+	mix-blend-mode: multiply;
+	animation-name: img-1;
+	animation: img-1 1s infinite alternate;
+	-webkit-animation: img-1 1s infinite alter nate;
+}
+
+@keyframes img-1 {
+	from {
+			transform: translateY(0px);
+	}
+	to {
+			transform: translateY(-10px);
+	}
+}
+@-webkit-keyframes img-1 {
+	from {
+			transform: translateY(0px);
+	}
+	to {
+			transform: translateY(-15px);
+	}
+}

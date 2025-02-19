@@ -32,23 +32,36 @@ button {
   align-items: center;
 }
 
+.card-initial {
+
+  padding: 3rem;
+  box-shadow: rgba(9, 9, 9, 0.6) 1px 2px 2px 1px;
+  background: rgba(11, 211, 251, 0.6);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 80%;
+  color: rgb(254, 254, 254);
+}
+
+.h2-card_initial {
+margin: 5rem auto;
+
+}
 h2 {
+  
   text-align: center;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
-    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  background: rgba(255, 210, 9, 0.768);
   padding: 0;
   margin-bottom: 0;
   border-radius: 0.4rem;
-  margin: .4rem;
+  margin: 0.4rem;
   width: 35vh;
-  height:50%;
+  height: 50%;
   box-sizing: border-box;
-  
 }
 
 li {
-
   list-style: none;
   display: grid;
   grid-template-columns: repeat(1, 3fr);
@@ -66,7 +79,6 @@ li {
   height: 15px;
   border-radius: 0.2rem;
   grid-area: id id;
-
 }
 
 img {
@@ -78,7 +90,6 @@ img {
 .name {
   grid-area: name name;
   margin: 0;
-  
 }
 
 .type {
@@ -95,3 +106,5 @@ img {
   grid-area: abilities abilities;
   margin: 0;
 }
+
+
